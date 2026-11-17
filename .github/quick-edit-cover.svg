@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Quick Edit Editor for MyBB</title>
+  <desc id="desc">A dark, modern illustration of a forum post becoming an SCEditor quick-edit form, with formatting toolbar and save controls.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#172b46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54d6c8"/>
+      <stop offset="1" stop-color="#63a9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#07101d" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1070" cy="55" r="190" fill="#3b82f6" opacity=".08"/>
+  <circle cx="75" cy="400" r="180" fill="#2dd4bf" opacity=".07"/>
+  <g opacity=".18" stroke="#9bb5d2" stroke-width="1">
+    <path d="M0 84h1200M0 336h1200"/>
+    <path d="M80 0v420M1120 0v420"/>
+  </g>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="72" y="74" width="440" height="272" rx="20" fill="#f8fafc" opacity=".07" stroke="#c5d5e8" stroke-opacity=".17"/>
+    <circle cx="112" cy="120" r="19" fill="url(#accent)"/>
+    <path d="M105 120h14M112 113v14" stroke="#102033" stroke-width="3" stroke-linecap="round"/>
+    <text x="146" y="126" fill="#e9f1fb" font-size="17" font-weight="650">Forum post</text>
+    <text x="104" y="178" fill="#d5e2f1" font-size="15">A thoughtful reply, ready to refine.</text>
+    <rect x="104" y="198" width="330" height="8" rx="4" fill="#94a9c1" opacity=".32"/>
+    <rect x="104" y="218" width="282" height="8" rx="4" fill="#94a9c1" opacity=".24"/>
+    <rect x="104" y="258" width="112" height="34" rx="9" fill="#21344b" stroke="#8aa2bd" stroke-opacity=".2"/>
+    <text x="126" y="280" fill="#cfe0f2" font-size="12" font-weight="600">Quick Edit</text>
+
+    <path d="M536 210h72" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="m596 199 12 11-12 11" fill="none" stroke="#54d6c8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g filter="url(#shadow)">
+      <rect x="628" y="50" width="500" height="320" rx="20" fill="#f8fafc"/>
+      <path d="M648 50h460a20 20 0 0 1 20 20v40H628V70a20 20 0 0 1 20-20Z" fill="#eaf0f7"/>
+      <circle cx="658" cy="80" r="5" fill="#f87171"/>
+      <circle cx="676" cy="80" r="5" fill="#fbbf24"/>
+      <circle cx="694" cy="80" r="5" fill="#34d399"/>
+      <text x="720" y="85" fill="#34465c" font-size="14" font-weight="700">SCEditor · Quick Edit</text>
+      <rect x="650" y="128" width="456" height="48" rx="10" fill="#fff" stroke="#d7e0eb"/>
+      <g fill="#29415d" font-size="17" font-weight="750" text-anchor="middle">
+        <text x="676" y="158">B</text><text x="714" y="158" font-style="italic">I</text><text x="752" y="158" text-decoration="underline">U</text>
+      </g>
+      <path d="M778 140v24M804 140v24M842 140v24M880 140v24" stroke="#d5deea" stroke-width="1.5"/>
+      <text x="823" y="158" fill="#36516e" font-size="16" font-weight="700" text-anchor="middle">≡</text>
+      <text x="861" y="158" fill="#36516e" font-size="14" font-weight="700" text-anchor="middle">☺</text>
+      <text x="899" y="158" fill="#36516e" font-size="12" font-weight="700" text-anchor="middle">URL</text>
+      <text x="937" y="158" fill="#36516e" font-size="13" font-weight="700" text-anchor="middle">Code</text>
+      <rect x="650" y="190" width="456" height="112" rx="10" fill="#fff" stroke="#d7e0eb"/>
+      <text x="672" y="222" fill="#263a51" font-size="15">A thoughtful reply, ready to refine.</text>
+      <rect x="672" y="239" width="330" height="7" rx="3.5" fill="#cbd7e5"/>
+      <rect x="672" y="256" width="260" height="7" rx="3.5" fill="#d9e2ec"/>
+      <rect x="650" y="318" width="98" height="34" rx="9" fill="url(#accent)"/>
+      <text x="699" y="340" fill="#102b40" font-size="13" font-weight="750" text-anchor="middle">Save</text>
+      <rect x="758" y="318" width="88" height="34" rx="9" fill="#edf2f7"/>
+      <text x="802" y="340" fill="#4c6077" font-size="13" font-weight="650" text-anchor="middle">Cancel</text>
+    </g>
+    <text x="72" y="390" fill="#9fb3ca" font-size="12" letter-spacing="2.2" font-weight="700">MYBB PLUGIN  ·  INLINE EDITING, FULL-FEATURED</text>
+  </g>
+</svg>
